@@ -1,0 +1,33 @@
+metadata_version: 1
+name: Improving lab-of-origin prediction of genetically engineered plasmids via deep
+  metric learning
+description: This capsule provides the code associated with the article entitled "Deep
+  Metric Learning Improves the Genetically Modified Plasmid Origin Prediction Laboratory",
+  which implements deep metric learning using triple networks to improve the state
+  of the art in predicting those responsible for genetic modification in plasmids,
+  and also a new methodology for interpreting these models using integrated gradients.
+tags:
+- lab-of-origin
+- metric learning
+- plasmids
+- Deep learning
+- genetic engineering attribution
+- DNA
+- RNA
+- triplet network
+authors:
+- name: Igor Soares
+  affiliations:
+  - name: Amalgam
+- name: Fernando Camargo
+  affiliations:
+  - name: Amalgam
+- name: Adriano Marques
+  affiliations:
+  - name: Amalgam
+- name: Oliver Crook
+  affiliations:
+  - name: Oxford Protein Informatics Group
+corresponding_contributor:
+  name: Igor Soares
+  email: igor.muniz.ims@gmail.com

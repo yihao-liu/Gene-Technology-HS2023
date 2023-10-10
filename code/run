@@ -1,0 +1,69 @@
+#!/usr/bin/env bash
+
+ln -s ../data/output ./output
+
+set -ex
+
+python gpu_checker.py
+
+### Generate plots
+
+jupyter nbconvert \
+	--to 'html' \
+	--ExecutePreprocessor.allow_errors=True \
+	--ExecutePreprocessor.timeout=-1 \
+	--FilesWriter.build_directory=../results \
+	--execute Using_triplet_networks_embed_DNA_sequences.ipynb
+
+
+jupyter nbconvert \
+	--to 'html' \
+	--ExecutePreprocessor.allow_errors=True \
+	--ExecutePreprocessor.timeout=-1 \
+	--FilesWriter.build_directory=../results \
+	--execute FewShotPlots.ipynb
+
+jupyter nbconvert \
+	--to 'html' \
+	--ExecutePreprocessor.allow_errors=True \
+	--ExecutePreprocessor.timeout=-1 \
+	--FilesWriter.build_directory=../results \
+	--execute FewShotOnUnknownLabsPlots.ipynb
+
+jupyter nbconvert \
+	--to 'html' \
+	--ExecutePreprocessor.allow_errors=True \
+	--ExecutePreprocessor.timeout=-1 \
+	--FilesWriter.build_directory=../results \
+	--execute EmbeddingOfSoftmaxModel.ipynb
+
+
+### Generate model results
+
+jupyter nbconvert \
+	--to 'html' \
+	--ExecutePreprocessor.allow_errors=True \
+	--ExecutePreprocessor.timeout=-1 \
+	--FilesWriter.build_directory=../results \
+	--execute run_triplet_experiment.ipynb
+
+jupyter nbconvert \
+	--to 'html' \
+	--ExecutePreprocessor.allow_errors=True \
+	--ExecutePreprocessor.timeout=-1 \
+	--FilesWriter.build_directory=../results \
+	--execute run_softmax_experiment.ipynb
+
+# jupyter nbconvert \
+# 	--to 'html' \
+# 	--ExecutePreprocessor.allow_errors=True \
+# 	--ExecutePreprocessor.timeout=-1 \
+# 	--FilesWriter.build_directory=../results \
+# 	--execute run_one_hot_encoding_model.ipynb
+
+# jupyter nbconvert \
+# 	--to 'html' \
+# 	--ExecutePreprocessor.allow_errors=True \
+# 	--ExecutePreprocessor.timeout=-1 \
+# 	--FilesWriter.build_directory=../results \
+# 	--execute run_seq_limit_size.ipynb

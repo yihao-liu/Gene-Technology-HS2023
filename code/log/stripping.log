@@ -1,0 +1,86 @@
+2020-10-31 10:45:00,949 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2020-10-31 10:45:02,506 - stripping - INFO - Step 'read_dataset' has skip_cache=True. Executing...
+2020-10-31 10:45:24,105 - stripping - INFO - Step 'split_dataset' has skip_cache=True. Executing...
+2020-10-31 10:45:24,106 - stripping - INFO - Step 'train_with_folds' has skip_cache=True. Executing...
+2020-10-31 12:16:46,728 - stripping - INFO - Step 'generate_submission' has skip_cache=True. Executing...
+2020-10-31 12:17:15,554 - stripping - INFO - Step 'end_experiment' has skip_cache=True. Executing...
+2021-11-03 19:10:01,395 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-11-03 19:15:55,462 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-11-30 19:37:10,311 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-11-30 20:14:32,817 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-11-30 20:19:12,866 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-11-30 20:19:13,174 - stripping - INFO - Step 'read_dataset' has skip_cache=True. Executing...
+2021-11-30 20:19:27,171 - stripping - INFO - Step 'split_dataset' has skip_cache=True. Executing...
+2021-11-30 20:19:27,172 - stripping - INFO - Step 'train_with_folds' has skip_cache=True. Executing...
+2021-11-30 21:17:53,889 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-11-30 21:23:19,618 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-11-30 21:23:19,889 - stripping - INFO - Step 'read_dataset' has skip_cache=True. Executing...
+2021-11-30 21:23:34,191 - stripping - INFO - Step 'split_dataset' has skip_cache=True. Executing...
+2021-11-30 21:23:34,192 - stripping - INFO - Step 'train_with_folds' has skip_cache=True. Executing...
+2021-11-30 21:43:22,240 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-11-30 21:44:20,458 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-11-30 21:57:55,941 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-11-30 21:59:53,229 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-11-30 22:10:57,020 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-11-30 22:20:12,490 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-11-30 22:34:09,505 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-01 03:08:53,175 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-01 11:28:01,140 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-01 12:23:51,875 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-01 13:06:34,765 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-01 15:25:25,570 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-01 16:05:46,281 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-01 18:25:26,657 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-01 21:24:24,483 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-01 22:18:56,326 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-02 01:25:37,260 - stripping - INFO - Step 'generate_submission' has skip_cache=True. Executing...
+2021-12-02 01:26:05,881 - stripping - INFO - Step 'end_experiment' has skip_cache=True. Executing...
+2021-12-02 02:02:19,279 - stripping - INFO - Step 'generate_submission' has skip_cache=True. Executing...
+2021-12-02 02:02:46,152 - stripping - INFO - Step 'end_experiment' has skip_cache=True. Executing...
+2021-12-02 11:37:09,104 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-02 11:37:09,368 - stripping - INFO - Step 'read_dataset' has skip_cache=True. Executing...
+2021-12-02 11:37:22,551 - stripping - INFO - Step 'split_dataset' has skip_cache=True. Executing...
+2021-12-02 11:37:22,552 - stripping - INFO - Step 'train_with_folds' has skip_cache=True. Executing...
+2021-12-02 11:41:18,882 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-02 11:59:17,107 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-03 16:21:30,930 - stripping - INFO - Step 'generate_submission' has skip_cache=True. Executing...
+2021-12-03 16:22:01,264 - stripping - INFO - Step 'end_experiment' has skip_cache=True. Executing...
+2021-12-17 12:06:40,427 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-17 12:08:28,329 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-17 12:48:25,257 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-17 12:55:14,770 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-17 12:57:36,364 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-17 13:33:44,267 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-17 16:03:35,695 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-17 18:50:58,726 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-17 18:57:33,379 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-17 19:04:17,720 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-17 19:25:36,335 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-17 19:43:50,100 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-17 19:44:04,284 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-17 20:37:42,254 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-17 20:59:53,081 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2021-12-17 21:09:09,909 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-14 19:26:03,732 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-15 13:32:46,844 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-15 15:21:20,263 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-15 15:24:59,038 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-15 16:16:36,418 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-15 18:19:55,266 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-18 19:53:42,205 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-19 09:39:44,114 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-19 09:50:20,333 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-19 09:59:48,246 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-19 11:32:14,344 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-19 12:04:52,820 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-19 13:23:08,519 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-21 11:03:57,403 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-21 12:09:45,219 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-21 15:02:30,315 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-21 23:13:08,987 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-22 15:21:54,018 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-28 17:10:52,731 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-29 13:56:35,516 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-07-31 15:18:06,097 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-08-02 13:47:27,467 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
+2023-08-16 22:55:18,203 - stripping - WARNING - Not using Catalysis: No module named 'catalysis'
