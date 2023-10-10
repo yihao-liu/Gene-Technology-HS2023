@@ -46,6 +46,12 @@ This will open a new page in your web browser with a list of files in your curre
 
 For a more detailed guide on using Jupyter Notebooks, please refer to the [official Jupyter documentation](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html).
 
+## To-Do
+
+- [ ] Upload and verify the `environment.yml` file.
+- [ ] Clean up and organize the files contained in the project.
+- [ ] Upload necessary test data.
+
 ## Acknowledgments
 
 - The original [source code](https://codeocean.com/capsule/3003146/tree/v1) from "Deep Metric Learning Improves the Genetically Modified Plasmid Origin Prediction Laboratory".
