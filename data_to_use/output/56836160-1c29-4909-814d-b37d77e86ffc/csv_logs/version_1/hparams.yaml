@@ -1,0 +1,95 @@
+class_weights: null
+model_config: !!python/object:__main__.ModelConfig
+  __dict__:
+    activation_function: tanh
+    attention: false
+    dense_hidden_dim: 0
+    depth: 1
+    dropout_after_convs: 0.0
+    dropout_after_sequence_fc: 0.0
+    dropout_after_sequences: 0.1
+    dropout_before_output_fc: 0.0
+    extra_hidden_dim: 128
+    extra_inputs: false
+    kernel_sizes:
+    - 1
+    - 2
+    - 3
+    - 4
+    num_filters: 256
+    predict: false
+    sequence_embedding: true
+    sequence_embedding_dim: 200
+    vocab_size: 1001
+    weight_path: ''
+  __fields_set__: !!set
+    activation_function: null
+    attention: null
+    dense_hidden_dim: null
+    depth: null
+    dropout_after_convs: null
+    dropout_after_sequence_fc: null
+    dropout_after_sequences: null
+    dropout_before_output_fc: null
+    extra_hidden_dim: null
+    extra_inputs: null
+    kernel_sizes: null
+    num_filters: null
+    predict: null
+    sequence_embedding: null
+    sequence_embedding_dim: null
+    vocab_size: null
+    weight_path: null
+num_classes: 1314
+training_config: !!python/object:altlabs.training.TrainingConfig
+  __dict__:
+    apply_transform_sequence_fn_to_val: false
+    balance_class_weights: false
+    balance_fields: []
+    balance_train_dataset: true
+    batch_size: 64
+    bpe: true
+    early_stopping_min_delta: 1.0e-06
+    early_stopping_mode: min
+    early_stopping_monitor: val_loss
+    early_stopping_patience: 30
+    gpus:
+    - 0
+    gradient_clip: 0.0
+    learning_rate: 0.001
+    max_epochs: 200
+    negative_proportion: 0.5
+    num_workers: 20
+    optimizer: radam
+    piece_size_pct: -1
+    reduce_on_plateau: true
+    sequence_size_limit: 1000
+    stripping_skip_cache: true
+    transform_sequence_fn: random_roll
+    tta_steps: 10
+    weight_decay: 1.0e-06
+  __fields_set__: !!set
+    apply_transform_sequence_fn_to_val: null
+    balance_class_weights: null
+    balance_fields: null
+    balance_train_dataset: null
+    batch_size: null
+    bpe: null
+    early_stopping_min_delta: null
+    early_stopping_mode: null
+    early_stopping_monitor: null
+    early_stopping_patience: null
+    gpus: null
+    gradient_clip: null
+    learning_rate: null
+    max_epochs: null
+    negative_proportion: null
+    num_workers: null
+    optimizer: null
+    piece_size_pct: null
+    reduce_on_plateau: null
+    sequence_size_limit: null
+    stripping_skip_cache: null
+    transform_sequence_fn: null
+    tta_steps: null
+    weight_decay: null
