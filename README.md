@@ -34,23 +34,25 @@ Replace `your-env-name` with the name of the environment specified in the `envir
 
 ### Usage
 
-1. Launch Jupyter Notebook:
+1. Download the Data: 
+   Before running the notebook, you need to download the data folder required for this project. Get the data from [this link](https://codeocean.com/capsule/3003146/tree/v1). Make sure to place it in the appropriate directory within your project folder.
+
+2. Launch Jupyter Notebook:
     ```
     jupyter notebook
     ```
 This will open a new page in your web browser with a list of files in your current directory.
 
-2. Navigate to the `MLinPharma_showcase.ipynb` file and click on it to open.
+3. Navigate to the `Gene_Technology_showcase.ipynb` file and click on it to open.
 
-3. Once inside the notebook, you can run each cell by clicking on it and pressing `Shift+Enter`. This will execute the code inside the cell and move to the next one.
+4. Once inside the notebook, you can run each cell by clicking on it and pressing `Shift+Enter`. This will execute the code inside the cell and move to the next one.
 
 For a more detailed guide on using Jupyter Notebooks, please refer to the [official Jupyter documentation](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html).
 
 ## To-Do
 
-- [ ] Upload and verify the `environment.yml` file.
+- [ ] Verify the `environment.yml` file.
 - [ ] Clean up and organize the files contained in the project.
-- [ ] Upload necessary test data.
 
 ## Acknowledgments
 
