@@ -4,15 +4,27 @@ Welcome to the project repository for the lecture 535-0810-00L Gene Technology H
 
 ## Getting Started
 
-These instructions will help you set up and run the project on your local machine for educational and development purposes.
+These instructions will help you set up and run the project on your local machine or directly on Moodle using Jupyter Hub for educational and development purposes.
 
-### Prerequisites
+### Option1 : Using Jupyter Hub on Moodle
+
+1. Open Jupyter Hub on Moodle.
+2. Use git to clone the project repository:
+   ```
+   git clone https://github.com/yihao-liu/Gene-Technology-HS2023.git
+    ```
+3. Download the Data: 
+   Before running the notebook, you need to download the data folder required for this project. Get the data from [this link](https://codeocean.com/capsule/3003146/tree/v1). Make sure to place it in the appropriate directory within your project folder. The data folder should be placed directly under the **Gene-Technology-HS2023** folder.
+
+
+### Option 2: Local Setup
+#### Prerequisites
 
 1. **Python 3.6 or higher**: You can download it from [here](https://www.python.org/downloads/).
 2. **Conda**: We recommend using Conda as a package and environment manager. Install it from [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
 
 
-### Installation
+#### Installation
 
 1. Clone this repository:
     ```
@@ -32,7 +44,7 @@ These instructions will help you set up and run the project on your local machin
 Replace `your-env-name` with the name of the environment specified in the `environment.yml` file.
 
 
-### Usage
+#### Usage
 
 1. Download the Data: 
    Before running the notebook, you need to download the data folder required for this project. Get the data from [this link](https://codeocean.com/capsule/3003146/tree/v1). Make sure to place it in the appropriate directory within your project folder.
