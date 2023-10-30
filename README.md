@@ -20,7 +20,7 @@ These instructions will help you set up and run the project on your local machin
     ![Data Folder](./READMEIMG/data1.jpg)
     ![Data Folder](./READMEIMG/data2.jpg)
     ![Data Folder](./READMEIMG/output.jpg)
-4. Navigate to the `Gene_Technology_showcase.ipynb` file and click on it to open and run.
+4. Navigate to the `Gene_Technology_showcase.ipynb` file under the folder **code** and click on it to open and run.
 
 ### Option 2: Local Setup
 #### Prerequisites
