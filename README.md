@@ -6,7 +6,7 @@ Welcome to the project repository for the lecture 535-0810-00L Gene Technology H
 
 These instructions will help you set up and run the project on your local machine or directly on Moodle using Jupyter Hub for educational and development purposes.
 
-### Option1 : Using Jupyter Hub on Moodle
+### Option1 : Using Jupyter Hub on Moodle (Recommended)
 
 1. Open Jupyter Hub on Moodle.
 2. Use git to clone the project repository:
@@ -15,7 +15,7 @@ These instructions will help you set up and run the project on your local machin
     ```
 3. Download the Data: 
    Before running the notebook, you need to download the data folder required for this project. Get the data from [this link](https://codeocean.com/capsule/3003146/tree/v1). Make sure to place it in the appropriate directory within your project folder. The data folder should be placed directly under the **Gene-Technology-HS2023** folder.
-
+4. Navigate to the `Gene_Technology_showcase.ipynb` file and click on it to open and run.
 
 ### Option 2: Local Setup
 #### Prerequisites
