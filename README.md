@@ -9,12 +9,17 @@ These instructions will help you set up and run the project on your local machin
 ### Option1 : Using Jupyter Hub on Moodle (Recommended)
 
 1. Open Jupyter Hub on Moodle.
-2. Use git to clone the project repository:
+2. Open the Terminal and use git to clone the project repository:
    ```
    git clone https://github.com/yihao-liu/Gene-Technology-HS2023.git
     ```
+    ![Open Terminal](./READMEIMG/terminal.jpg)
+    ![Clone Repository](./READMEIMG/git.jpg)
 3. Download the Data: 
-   Before running the notebook, you need to download the data folder required for this project. Get the data from [this link](https://codeocean.com/capsule/3003146/tree/v1). Make sure to place it in the appropriate directory within your project folder. The data folder should be placed directly under the **Gene-Technology-HS2023** folder.
+   Before running the notebook, you need to download the data folder required for this project. Get the data from [this link](https://codeocean.com/capsule/3003146/tree/v1). The data folder should be placed directly under the **Gene-Technology-HS2023** folder. The folder structure should look like this and also the requried output folder and files should be created under the data folder:
+    ![Data Folder](./READMEIMG/data1.jpg)
+    ![Data Folder](./READMEIMG/data2.jpg)
+    ![Data Folder](./READMEIMG/output.jpg)
 4. Navigate to the `Gene_Technology_showcase.ipynb` file and click on it to open and run.
 
 ### Option 2: Local Setup
@@ -47,7 +52,7 @@ Replace `your-env-name` with the name of the environment specified in the `envir
 #### Usage
 
 1. Download the Data: 
-   Before running the notebook, you need to download the data folder required for this project. Get the data from [this link](https://codeocean.com/capsule/3003146/tree/v1). Make sure to place it in the appropriate directory within your project folder.
+   Before running the notebook, you need to download the data folder required for this project. Get the data from [this link](https://codeocean.com/capsule/3003146/tree/v1). Make sure to place it in the appropriate directory within your project folder as described before.
 
 2. Launch Jupyter Notebook:
     ```
