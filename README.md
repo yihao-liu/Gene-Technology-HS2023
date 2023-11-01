@@ -15,11 +15,11 @@ These instructions will help you set up and run the project on your local machin
     ```
     ![Open Terminal](./READMEIMG/terminal.jpg)
     ![Clone Repository](./READMEIMG/git.jpg)
-3. Download the Data: 
-   Before running the notebook, you need to download the data folder required for this project. Get the data from [this link](https://codeocean.com/capsule/3003146/tree/v1). The data folder should be placed directly under the **Gene-Technology-HS2023** folder. The folder structure should look like this and also the requried output folder and files should be created under the data folder:
+3. Rename the folder **data_to_use** with **data**.
+4. Download the Data: 
+   Before running the notebook, you need to download the data required for this project. Get the data from [this link](https://codeocean.com/capsule/3003146/tree/v1). Once you have put all .csv files (**you only need to download these .csv files**) under the folder **data**, the folder structure should look like this:
     ![Data Folder](./READMEIMG/data1.jpg)
     ![Data Folder](./READMEIMG/data2.jpg)
-    ![Data Folder](./READMEIMG/output.jpg)
 4. Navigate to the `Gene_Technology_showcase.ipynb` file under the folder **code** and click on it to open and run.
 
 ### Option 2: Local Setup
@@ -51,18 +51,20 @@ Replace `your-env-name` with the name of the environment specified in the `envir
 
 #### Usage
 
-1. Download the Data: 
-   Before running the notebook, you need to download the data folder required for this project. Get the data from [this link](https://codeocean.com/capsule/3003146/tree/v1). Make sure to place it in the appropriate directory within your project folder as described before.
+1. Rename the folder **data_to_use** with **data**.
 
-2. Launch Jupyter Notebook:
+2. Download the Data: 
+   Before running the notebook, you need to download the data required for this project. Get the data from [this link](https://codeocean.com/capsule/3003146/tree/v1). Make sure to place it in the appropriate directory within your project folder as described before.
+
+3. Launch Jupyter Notebook:
     ```
     jupyter notebook
     ```
 This will open a new page in your web browser with a list of files in your current directory.
 
-3. Navigate to the `Gene_Technology_showcase.ipynb` file and click on it to open.
+4. Navigate to the `Gene_Technology_showcase.ipynb` file and click on it to open.
 
-4. Once inside the notebook, you can run each cell by clicking on it and pressing `Shift+Enter`. This will execute the code inside the cell and move to the next one.
+5. Once inside the notebook, you can run each cell by clicking on it and pressing `Shift+Enter`. This will execute the code inside the cell and move to the next one.
 
 For a more detailed guide on using Jupyter Notebooks, please refer to the [official Jupyter documentation](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html).
 
