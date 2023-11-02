@@ -16,11 +16,31 @@ These instructions will help you set up and run the project on your local machin
     ![Open Terminal](./READMEIMG/terminal.jpg)
     ![Clone Repository](./READMEIMG/git.jpg)
 3. Rename the folder **data_to_use** with **data**.
-4. Download the Data: 
-   Before running the notebook, you need to download the data required for this project. Get the data from [this link](https://codeocean.com/capsule/3003146/tree/v1). Once you have put all .csv files (**you only need to download these .csv files**) under the folder **data**, the folder structure should look like this:
+4. Download the Data
+
+    Before running the notebook, you will need to download the dataset required for this project. The dataset is composed of several `.csv` files, each serving a different purpose in the analysis.
+
+    Please download the following files:
+
+    - `format.csv`: The template file that illustrates the data format.
+    - `pubsubindex.csv`: Contains index information.
+    - `test_labels.csv`: The labels for the test dataset.
+    - `test_values.csv`: The features for the test dataset.
+    - `train_labels.csv`: The labels for the training dataset.
+    - `train_values_grouped.csv`: Grouped values for the training dataset.
+    - `train_values.csv`: The raw features for the training dataset.
+
+    You can obtain these files from the following link: [Download Data](https://codeocean.com/capsule/3003146/tree/v1).
+
+    After downloading, place all `.csv` files under the `data` folder in your project directory. The folder structure should be as follows:
     ![Data Folder](./READMEIMG/data1.jpg)
     ![Data Folder](./READMEIMG/data2.jpg)
-4. Navigate to the `Gene_Technology_showcase.ipynb` file under the folder **code** and click on it to open and run.
+
+    **Please note**: The uploading process might take several minutes. You can monitor the progress at the bottom of the webpage.
+    ![Uploading Data](./READMEIMG/uploading.png)
+
+
+5. Navigate to the `Gene_Technology_showcase.ipynb` file under the folder **code** and click on it to open, select the **Gene Technology** kernel and run.
 
 ### Option 2: Local Setup
 #### Prerequisites
@@ -64,7 +84,7 @@ This will open a new page in your web browser with a list of files in your curre
 
 4. Navigate to the `Gene_Technology_showcase.ipynb` file and click on it to open.
 
-5. Once inside the notebook, you can run each cell by clicking on it and pressing `Shift+Enter`. This will execute the code inside the cell and move to the next one.
+5. Once inside the notebook, after select the **Gene Technology** kernel, you can run each cell by clicking on it and pressing `Shift+Enter`. This will execute the code inside the cell and move to the next one.
 
 For a more detailed guide on using Jupyter Notebooks, please refer to the [official Jupyter documentation](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html).
 
