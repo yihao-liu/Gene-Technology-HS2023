@@ -93,6 +93,40 @@ For a more detailed guide on using Jupyter Notebooks, please refer to the [offic
 - [ ] Verify the `environment.yml` file.
 - [ ] Clean up and organize the files contained in the project.
 
+## Troubleshooting
+
+Below are some common problems users may encounter, along with suggested solutions.
+
+### Data Loading Issues
+
+#### Issue 1: Index Error
+**Symptom:**
+When trying to load the data, you might receive an error indicating that the index is out of bounds, such as:
+```
+IndexError: positional indexers are out-of-bounds
+```
+
+**Possible Solutions:**
+- **Data completeness:**
+    Verify that all the necessary data files are present in the specified directory and uploaded correctly and completely.
+
+#### Issue 2: Value Error
+**Symptom:**
+You might face issues when trying to predict the origin of a plasmid, such as:
+```
+ValueError: Shape of passed values is (20, 1314), indices imply (20, 1140)
+```
+
+**Possible Solutions:**
+- **Check the shape and the values of Occurrences:**
+    - The shape of the Occurrences should be `(1314,)`.
+    - The values of the Occurrences should not include `nan`.
+- **Data completeness:**
+    Verify that all the necessary data files are present in the specified directory and uploaded correctly.
+
+
+If you encounter any other issues not described above, consider reaching out for support.
+
 ## Acknowledgments
 
 - The original [source code](https://codeocean.com/capsule/3003146/tree/v1) from "Deep Metric Learning Improves the Genetically Modified Plasmid Origin Prediction Laboratory".
