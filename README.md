@@ -124,7 +124,6 @@ ValueError: Shape of passed values is (20, 1314), indices imply (20, 1140)
 - **Data completeness:**
     Verify that all the necessary data files are present in the specified directory and uploaded correctly.
 
-
 If you encounter any other issues not described above, consider reaching out for support.
 
 ## Acknowledgments
